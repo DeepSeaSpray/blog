@@ -1,0 +1,4 @@
+{
+    "python.analysis.inlayHints.functionReturnTypes": false,
+    "editor.bracketPairColorization.enabled": true
+}
