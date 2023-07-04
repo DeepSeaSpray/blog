@@ -1,4 +1,5 @@
 {
     "python.analysis.inlayHints.functionReturnTypes": false,
-    "editor.bracketPairColorization.enabled": true
+    "editor.bracketPairColorization.enabled": true,
+    "editor.wordWrap": "on"
 }
