@@ -2,6 +2,5 @@
 ```html
 <head>
   <!--add-->
-  <link rel="stylesheet" type="text/css" href="../css/backgroung.css" >
-  <link rel="stylesheet" type="text/css" href="../css/textbox.css" >
+  <link rel="stylesheet" type="text/css" href="../css/style.css" >
 ```
