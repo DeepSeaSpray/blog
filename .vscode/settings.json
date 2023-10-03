@@ -1,5 +1,6 @@
 {
     "python.analysis.inlayHints.functionReturnTypes": false,
     "editor.bracketPairColorization.enabled": true,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "git.terminalAuthentication": false
 }
