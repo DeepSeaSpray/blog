@@ -102,7 +102,7 @@ function searchtext() {
                             textorder++
                         }
 
-                        resultfortext = '<h4><a href="' + obj[k]["path"] + '" class="resulttitle">' + obj[k]['title'] + '</a></h4><em>-' + targetscorecache[i] + '个结果</em><p class="showbox">...' + obj[k]['text'].substring(textorder, textorder + 100).replace(new RegExp(input.value, 'g'), '<mark>' + input.value + '</mark>') + '</p>'
+                        resultfortext = '<h4><a href=/blog/article/"' + obj[k]["path"] + '" class="resulttitle">' + obj[k]['title'] + '</a></h4><em>-' + targetscorecache[i] + '个结果</em><p class="showbox">...' + obj[k]['text'].substring(textorder, textorder + 100).replace(new RegExp(input.value, 'g'), '<mark>' + input.value + '</mark>') + '</p>'
                         textsearchresult = textsearchresult + '<hr>' + resultfortext;
                     }
                 }
