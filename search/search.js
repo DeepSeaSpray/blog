@@ -117,5 +117,5 @@ function searchtext() {
         }
     }
     // 整合
-    result.innerHTML = result.innerHTML.substring(0, result.innerHTML.length - 4) + textsearchresult.substring(0, textsearchresult.length - 4) + '<hr><a href="https://github.com/ravelloh/RPageSearch" class="tr">Search powered by RavelloH\'s RPageSearch</a>'
+    result.innerHTML = result.innerHTML.substring(0, result.innerHTML.length - 4) + textsearchresult.substring(0, textsearchresult.length - 4) + '<br><hr><a href="https://github.com/ravelloh/RPageSearch" class="tr">Search powered by RavelloH\'s RPageSearch</a>'
 }
