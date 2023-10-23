@@ -52,7 +52,7 @@ function searchtext() {
         for (i = 0; i < resulttitlecache.length; i++) {
             for (j = 0; j < obj.length; j++) {
                 if (obj[j]['title'] == resulttitlecache[i]) {
-                    titlesearchresult = '<h4><a href="' + obj[j]["path"] + '" class="resulttitle">' + obj[j]['title'].replace(new RegExp(input.value, 'g'), '<mark>' + input.value + '</mark>') + '</a></h4><em>-标题匹配</em><p class="showbox">' + obj[j]['text'].substring(0, 100) + '</p>'
+                    titlesearchresult = '<h4><a href="../article/' + obj[j]["path"] + '" class="resulttitle">' + obj[j]['title'].replace(new RegExp(input.value, 'g'), '<mark>' + input.value + '</mark>') + '</a></h4><em>-标题匹配</em><p class="showbox">' + obj[j]['text'].substring(0, 100) + '</p>'
                     resultstr = titlesearchresult + '<hr>' + resultstr
                 }
             }
@@ -102,7 +102,7 @@ function searchtext() {
                             textorder++
                         }
 
-                        resultfortext = '<h4><a href="/blog/article/' + obj[k]["path"] + '" class="resulttitle">' + obj[k]['title'] + '</a></h4><em>-' + targetscorecache[i] + '个结果</em><p class="showbox">...' + obj[k]['text'].substring(textorder, textorder + 100).replace(new RegExp(input.value, 'g'), '<mark>' + input.value + '</mark>') + '</p>'
+                        resultfortext = '<h4><a href="../article/' + obj[k]["path"] + '" class="resulttitle">' + obj[k]['title'] + '</a></h4><em>-' + targetscorecache[i] + '个结果</em><p class="showbox">...' + obj[k]['text'].substring(textorder, textorder + 100).replace(new RegExp(input.value, 'g'), '<mark>' + input.value + '</mark>') + '</p>'
                         textsearchresult = textsearchresult + '<hr>' + resultfortext;
                     }
                 }
