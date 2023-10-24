@@ -33,7 +33,7 @@ b.b
 <p>有了上面两张图的辅助，你一定已经理解了做法。</p>
 <h2><a id="_35"></a>具体实现</h2>
 <p>首先，每一行或列都只会出现在一个联通块中，这是很显然的。在预处理每一行或列的和的前提下，我们还要对于交叉的部分去重，时间复杂度是<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>n</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(n^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1.0641em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.0278em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.8141em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span>的，对于没有环的连通块，我们还要算出连通块的开头的行或列（就是不能被别的炸弹引爆的行或列）。注意这一部分也需要去重，因为虽然这一部分的水晶没有被该炸弹引爆，但是有可能被别的炸弹引爆。</p>
-<p><a href="%5Cblog%5Ccut%5C5%5C1.html">查看代码</a></p>
+<p><a href="/blog/cut/5/1.html">查看代码</a></p>
 <h2><a id="_41"></a>后记</h2>
 <p>警醒自己：”能不能改掉甩笔的习惯。“</p>
 </div>
